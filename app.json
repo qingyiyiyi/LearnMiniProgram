@@ -1,7 +1,32 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/mine/mine"
   ],
-  "sitemapLocation": "sitemap18.json"
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "czx",
+    "backgroundColor": "#ff5666",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/images/tabbar/tabbar-befort/home.png",
+        "selectedIconPath": "assets/images/tabbar/tabbar-after/home.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "分类",
+        "iconPath": "assets/images/tabbar/tabbar-befort/fenlei.png",
+        "selectedIconPath": "assets/images/tabbar/tabbar-after/fenlei.png"
+      }
+    ]
+  }
 }

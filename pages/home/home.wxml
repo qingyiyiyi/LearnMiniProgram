@@ -1,7 +1,7 @@
 <!--pages/home/home.wxml-->
 <!--  Mustache语法 -->
 
-<view wx:for="{{students}}">姓名：{{item.name}}    年龄：{{item.age}}</view>
+<view wx:for="{{students}}">姓名：{{item.name}}   年龄：{{item.age}}</view>
 
 <view>当前计数： {{counter}}</view>
 <button size="mini" bindtap="add">+</button>
