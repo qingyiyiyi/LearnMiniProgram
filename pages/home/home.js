@@ -5,7 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
+    students: [
+      {id: 101, name:'小明', age:18},
+      {id: 102, name:'小红', age:17},
+      {id: 103, name:'小刚', age:26},
+      {id: 104, name:'小强', age:9}
+    ],
+    counter: 0
+  },
 
+  add() {
+    //这样写数据改变了，页面不会刷新
+    // this.data.counter ++
+    // console.log(this.data.counter);
+
+    //要这样写
+    this.setData({
+      counter: this.data.counter +=1
+    })
+  },
+  decreasing() {
+    //这样写数据改变了，页面不会刷新
+    // this.data.counter --
+    // console.log(this.data.counter);
+    this.setData({
+      counter: this.data.counter -=1
+    })
   },
 
   /**
