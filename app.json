@@ -2,6 +2,7 @@
   "pages": [
     "pages/home/home",
     "pages/about/about",
+    "pages/cart/cart",
     "pages/mine/mine"
   ],
   "window": {
@@ -10,7 +11,7 @@
     "navigationBarTitleText": "czx",
     "backgroundColor": "#ff5666",
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "selectedColor": "#ff5777",
@@ -26,7 +27,20 @@
         "text": "分类",
         "iconPath": "assets/images/tabbar/tabbar-befort/fenlei.png",
         "selectedIconPath": "assets/images/tabbar/tabbar-after/fenlei.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "assets/images/tabbar/tabbar-befort/gouwuche1.png",
+        "selectedIconPath": "assets/images/tabbar/tabbar-after/gouwuche1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/images/tabbar/tabbar-befort/user.png",
+        "selectedIconPath": "assets/images/tabbar/tabbar-after/user.png"
       }
+
     ]
   }
 }
